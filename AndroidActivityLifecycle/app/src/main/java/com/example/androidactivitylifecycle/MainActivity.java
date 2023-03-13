@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    int threadCounter = 0;
+    public static int threadCounter = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
